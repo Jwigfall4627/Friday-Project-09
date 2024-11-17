@@ -10,8 +10,11 @@ def configure():
 # Configure environment variables
 configure()
 
-# Set your OpenAI API key
+# Set your OpenAI API key <------- DO NOT ENTER API Key here
 openai.api_key = os.getenv('api_key')
+
+#User testing API Key  <------------ Please enter 
+openai.api_key = ('Please Enter your API key here')
 
 # Function to get the AI response
 def get_response():
